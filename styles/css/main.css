@@ -91,9 +91,9 @@ audio:not([controls]) {
 }
 
 html {
-  font-size: 100%; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -ms-text-size-adjust: 100%; /* 2 */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 a:focus {
@@ -106,8 +106,8 @@ a:hover {
 }
 
 img {
-  border: 0; /* 1 */
-  -ms-interpolation-mode: bicubic; /* 2 */
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 
 figure {
@@ -155,9 +155,9 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-  overflow: visible; /* 4 */
+  -webkit-appearance: button; 
+  cursor: pointer; 
+  overflow: visible;
 }
 
 button[disabled],
