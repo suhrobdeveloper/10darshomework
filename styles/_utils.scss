@@ -1,0 +1,25 @@
+@for $index from 1 to 31 {
+    .my-#{$index}{
+        margin-block: $index*0.5rem;
+    }
+}
+@for $index from 1 to 31 {
+    .mx-#{$index}{
+        margin-inline: $index*0.5rem;
+    }
+}
+@for $index from 1 to 31 {
+    .py-#{$index}{
+        padding-block: $index*0.5rem;
+    }
+}
+@for $index from 1 to 31 {
+    .my-#{$index}{
+        padding-inline: $index*0.5rem;
+    }
+}
+@for $index from 1 to 13 {
+    .col-#{$index}{
+        width: $index*8.333%;
+    }
+}
