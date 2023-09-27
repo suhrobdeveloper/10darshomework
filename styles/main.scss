@@ -1,2 +1,20 @@
 @import"reset";
 @import"utils";
+
+ $asosiy_rang: #181818;
+
+.container {
+    width: 1097px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $asosiy_rang;
+    }
