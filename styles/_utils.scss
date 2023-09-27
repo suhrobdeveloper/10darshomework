@@ -1,4 +1,11 @@
 @for $index from 1 to 31 {
+    .ml-#{$index}{
+        margin-left: $index*0.5rem;
+    }
+}
+
+
+@for $index from 1 to 31 {
     .my-#{$index}{
         margin-block: $index*0.5rem;
     }
@@ -9,12 +16,28 @@
     }
 }
 @for $index from 1 to 31 {
-    .py-#{$index}{
+    .p-#{$index}{
+        padding: $index*0.5rem;
+    }
+}
+@for $index from 1 to 31 {
+    .pb-#{$index}{
+        padding-bottom: $index*0.5rem;
+    }
+}
+@for $index from 1 to 31 {
+    .pt-#{$index}{
+        padding-top: $index*0.5rem;
+    }
+}
+
+@for $index from 1 to 31 {
+    .px-#{$index}{
         padding-block: $index*0.5rem;
     }
 }
 @for $index from 1 to 31 {
-    .my-#{$index}{
+    .py-#{$index}{
         padding-inline: $index*0.5rem;
     }
 }
@@ -23,3 +46,4 @@
         width: $index*8.333%;
     }
 }
+
